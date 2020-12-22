@@ -3,7 +3,7 @@
 # [-1, -1]
 
 # Solution
-# Time complexity: Worst case O(n) if two largest walls in middle
+# Time complexity: Worst case O(log(n)) using binary search
 # Space complexity: O(1) - not using an auxiliary data struct
 
 def first_and_last(arr, target): 
